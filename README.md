@@ -1,10 +1,10 @@
-# 🎓 Student Dropout Prediction System
+#  Student Dropout Prediction System
 
 An AI-powered machine learning project that predicts the risk of student dropout based on academic performance, personal factors, and environmental conditions.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project uses a trained Machine Learning model to analyze multiple student-related features and predict whether a student is at risk of dropping out or not.
 
@@ -12,7 +12,7 @@ The system is deployed as an interactive **Streamlit web app** with a modern UI 
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Student dropout is a serious issue affecting education systems worldwide.  
 This project aims to:
@@ -22,7 +22,7 @@ This project aims to:
 
 ---
 
-## 📊 Input Features
+##  Input Features
 
 The model takes the following inputs:
 
@@ -46,31 +46,31 @@ The model takes the following inputs:
 
 ---
 
-## 🎯 Output
+##  Output
 
 The model predicts:
 - **Dropout Risk Level**
-  - Low Risk ✅  
-  - Medium Risk ⚠️  
-  - High Risk 🚨  
+  - Low Risk 
+  - Medium Risk   
+  - High Risk   
 
 - Probability score of dropout risk
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Python 🐍  
+- Python   
 - Pandas / NumPy  
-- Scikit-learn 🤖  
+- Scikit-learn   
 - Random Forest Classifier  
-- Streamlit 🎨  
-- Plotly 📊  
+- Streamlit 
+- Plotly  
 - Pickle (model serialization)
 
 ---
 
-## 📈 Features
+##  Features
 
 - Interactive web dashboard  
 - Real-time prediction system  
@@ -81,7 +81,7 @@ The model predicts:
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -91,7 +91,7 @@ cd dropout-project
 pip install -r requirements.txt
 3. Run the app
 streamlit run app.py
-📁 Project Structure
+ Project Structure
 dropout-project/
 │
 ├── app.py
@@ -99,17 +99,17 @@ dropout-project/
 ├── columns.pkl
 ├── requirements.txt
 ├── README.md
-💡 Future Improvements
+Future Improvements
 Add more student behavioral data
 Deploy on cloud (Streamlit Cloud / Render)
 Improve model accuracy with advanced algorithms
 Add explainability (feature importance per prediction)
 Mobile-friendly UI
-👩‍💻 Author
+ Author
 
 Developed by: Haneen Abdelwahed
-Machine Learning & Backend Enthusiast 🚀
+Machine Learning & Backend Enthusiast 
 
-⭐ Note
+ Note
 
 This project is for educational and demonstration purposes.
